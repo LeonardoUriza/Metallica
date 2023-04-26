@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metallica</title>
+    <link rel="favicon" href="./Images/icon-metallica.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Stylesheets/Contactanos.css">
+</head>
+
+<body>
+    <header></header> <br>
+    <nav>
+        <a href="Index.html">Inicio</a>
+        <a href="Historia.html">Historia</a>
+        <a href="Discografia.html">Discográfia</a>
+        <a href="./Lyrics.html">Lyrics</a>
+        <a href="#mensaje">Contáctanos</a>
+        <div class="animation start-home"></div>
+    </nav> <br>
+    <article>
+        <section class="contenido">
+            <form action="mailto:luriza@misena.edu.co" method="POST" enctype="text/plain">
+                <label for="Nombre">Nombre:</label><br> <input class="input" placeholder="Nombre" type="text" id="Nombre"> <input class="input" placeholder="Apellido" type="text" id="Apellidos"><br><br>
+                <label for="Correo electrónico">Correo Electrónico:</label><br> <input style="width: 310px;" class="input" type="email" id="email"><br><br>
+                <label for="Telefono">Teléfono:</label> <input class="input" type="number" name="Telefono" style="width: 100px;" id="Teléfono"><br><br>
+                <label for="Edad">Edad:</label><input class="input" type="number" name="Edad" id="Edad" size="9" style="width: 100px;" maxlength="9"><br><br>
+                <label for="Sexo">Sexo:</label><br>
+                <input class="radio" type="radio" value="Masculino" name="Sexo" id="Masculino"> <label for="Masculino">Masculino</label> <input class="radio" type="radio" value="Femenino" name="Sexo" id="Femenino"> <label for="Femenino">Femenino</label><br><br>
+                <label for="Tipo de documento">Documento de Identificación:</label><br>
+                <input class="radio" type="radio" name="Tipo de documento" id="Cédula de ciudadanía"> <label for="Cédula de ciudadanía">Cédula de ciudadanía</label>
+                <input class="radio" type="radio" name="Tipo de documento" id="Tarjeta de identidad"> <label for="Tarjeta de identidad">Tarjeta de identidad</label>
+                <input class="radio" type="radio" name="Tipo de documento" id="Cédula de extranjería"> <label for="Cédula de extranjería">Cédula de extranjería</label><br><br>
+                <label for="Numero de documento">Número de documento</label><br><input class="input" type="number" name="Tipo de documento"> <br><br>
+                <label for="Gusto">¿Te gusta Metallica?</label><input class="radio" type="radio" name="Gusto" id="Sí"> <label for="Sí">Sí</label><input class="radio" type="radio" name="Gusto" id="No"> <label for="No">No</label><br><br>
+                <label for="">Mensaje:</label><br> <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Compartenos tu experiencia y que es lo que mas te gusta"></textarea><br><br>
+                <input class="botón" type="submit" value="Enviar">
+            </form>
+        </section><br>
+    </article>
+    <div class="audio"><audio loop src="./Audios/For Whom The Bell Tolls.mp3" controls="controls"> </audio></div><br><br>
+    <footer>
+        <div>
+            <a href="https://www.metallica.com/" target="blank"><img src="./Images/Icono.png" alt="Official" width="50" height="50"></a>
+            <a href="mailto:luriza@misena.edu.co"><img src="./Images/Correo.png" alt="icono correo" width="50" height="50"></a>
+            <a href="skype:live:leonardou16"><img src="./Images/Skype.png" alt="icono Skype" width="50" height="50"></a>
+            <a href="Tel:+573196165846"><img src="./Images/Tel.png" alt="icono tel" width="50" height="50"></a>
+            <a href="https://api.whatsapp.com/send?phone=573196165846"><img src="./Images/Whatsapp.png" alt="icono whatsapp" width="50" height="50"></a>
+        </div>
+        <p>©Leonardo Uriza 2020</p>
+    </footer>
+</body>
+
+</html>
